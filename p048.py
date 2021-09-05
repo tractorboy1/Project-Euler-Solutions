@@ -10,4 +10,4 @@ for n in range(1000):
     else:
         item = NumberToTheNumber(n)
         total += item.value
-print(total)
+print(total % 10 ** 10)
